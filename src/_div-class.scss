@@ -1,0 +1,15 @@
+.success, .error, .warning{
+
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+
+    height: 200px;
+    width: 200px;
+
+    border: black dashed 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

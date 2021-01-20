@@ -1,0 +1,54 @@
+@import "./var-color";
+@import "./div-class";
+
+@mixin part2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    background: gray;
+
+}
+
+
+main{
+
+    @include part2();
+   
+}
+
+
+
+.success:hover{
+
+    color: white;
+    background: $successBack;
+    border: $successBack;
+    
+    
+}
+
+.error:hover{
+
+    color: white;
+    background: $errorBack;
+    border: $errorBack;
+
+}
+
+.warning:hover{
+    color: white;
+    background: $warningBack;
+    border: $warningBack;
+
+}
+
+footer{
+    @include part2();
+}
+
