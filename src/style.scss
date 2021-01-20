@@ -1,5 +1,6 @@
 @import "./var-color";
 @import "./div-class";
+@import "./varpad";
 
 @mixin part2{
 
@@ -8,6 +9,7 @@
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+
     padding-top: 0;
     padding-bottom: 0;
 
@@ -32,11 +34,14 @@ main{
     
     
 }
+.error{
+    background: $errorBack;
+}
 
 .error:hover{
 
     color: white;
-    background: $errorBack;
+    background: $successBack;
     border: $errorBack;
 
 }
@@ -50,5 +55,8 @@ main{
 
 footer{
     @include part2();
+
+    padding: $padding * 2;
+    
 }
 

@@ -3,6 +3,7 @@
   font-weight: bold;
   height: 200px;
   width: 200px;
+  padding: 30px;
   border: black dashed 1px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,9 +39,13 @@ main {
   border: green;
 }
 
+.error {
+  background: red;
+}
+
 .error:hover {
   color: white;
-  background: red;
+  background: green;
   border: red;
 }
 
@@ -65,5 +70,6 @@ footer {
   padding-top: 0;
   padding-bottom: 0;
   background: gray;
+  padding: 60px;
 }
 /*# sourceMappingURL=style.css.map */
