@@ -2,6 +2,12 @@
 @import "./div-class";
 @import "./varpad";
 
+@mixin boxshadow{
+    -webkit-box-shadow: 10px 10px 15px -4px #6b717f;
+    -moz-box-shadow: 10px 10px 15px -4px #6b717f;
+    box-shadow: 10px 10px 15px -4px #6b717f;
+}
+
 @mixin part2{
 
     display: flex;
