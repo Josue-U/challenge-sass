@@ -16,6 +16,10 @@
           align-items: center;
 }
 
+.success:hover, .error:hover, .warning:hover {
+  font-size: 28px;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -37,6 +37,7 @@ main{
     color: white;
     background: $successBack;
     border: $successBack;
+    @extend %message;
     
     
 }
@@ -49,13 +50,17 @@ main{
     color: white;
     background: $successBack;
     border: $errorBack;
+    @extend %message;
 
 }
+
+
 
 .warning:hover{
     color: white;
     background: $warningBack;
     border: $warningBack;
+    @extend %message;
 
 }
 
